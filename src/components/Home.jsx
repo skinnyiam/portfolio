@@ -17,16 +17,16 @@ const Home = () => {
       </div>
       <div className="flex flex-col p-16 sm:w-1/2 items-center">
         <div>
-          <p className="text-gray-300 text-sm sm:text-lg">
+          <p className="text-gray-300 text-sm sm:text-lg lg:text-xl">
             <span>&#128075;</span>Hi, I'm
           </p>
-          <h1 className="font-extrabold text-2xl sm:text-4xl">
+          <h1 className="font-extrabold text-2xl sm:text-4xl lg:text-6xl">
             SAURABH SHUKLA
           </h1>
-          <h2 className="text-gray-300 text-sm sm:text-lg">
+          <h2 className="text-gray-300 text-sm sm:text-lg lg:text-xl">
             {"→ "}I am a front-end developer
           </h2>
-          <p className="text-gray-300 text-sm sm:text-lg">
+          <p className="text-gray-300 text-sm sm:text-lg lg:text-xl">
             {"→ "}I am also learning data structures and algorithms.
           </p>
         </div>
