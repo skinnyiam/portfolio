@@ -1,5 +1,4 @@
 import React from "react";
-import { HiArrowNarrowDown } from "react-icons/hi";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,53 +11,49 @@ const About = () => {
   }, []);
 
   return (
-    <div
-      name="home"
-      className="z-2 w-full justify-center sm:flex flex-row pr-[200px] "
-    >
-      {/* container  */}
+    <div id="about" className="w-full flex flex-col sm:flex-row justify-center">
       <div
-        className=" w-full sm:flex sm:flex-col  sm:pl-[100px] pl-0] sm:ml-0 ml-[90px] sm:pt-[100px] pt-0  h-full"
-        data-aos="zoom-out-right"
+        className="w-full sm:w-1/2"
+        // data-aos="zoom-out-right"
       >
-        <div className="mb-[10px]  ">
-          <h1 className=" sm:text-6xl text-2xl font-semibold text-cyan-500 ">
-            ABOUT ME
-          </h1>
-        </div>
-        <h3 className="font-bold text-emerald-400 pl-[0px] sm:text-4xl text-3xl">
-          EDUCATION:
-        </h3>
-        <div className="mt-[20px] ">
-          <h2 className="text-green-400 text-3xl">2020 - PRESENT</h2>
-          <h6 className="text-teal-400">
-            Bachelors of Technology in Computer Science and Information
-            Technology
-          </h6>
-          <h6 className="text-teal-300">
-            Mahatma Jyotiba Phule Rohilkhand University
-          </h6>
-        </div>
-        <div className="sm:mt-[20px] ">
-          <h2 className="text-green-400 text-3xl ">2015 - 2017</h2>
-          <h6 className="text-teal-400">CGPA-9.2/10</h6>
-          <h6 className="text-teal-300">Udai Academy (CBSE)-10th.</h6>
-        </div>
-        <div className="sm:mt-[20px] ">
-          <h2 className="text-green-400 text-3xl ">2017 - 2019</h2>
-          <h6 className="text-teal-400">Percentage-87.6%</h6>
-          <h6 className="text-teal-300">P.D Academy (CBSE)-12th.</h6>
+        <div className="p-16 w-full flex flex-col items-center">
+          <div>
+            <h1 className="sm:text-2xl lg:text-4xl text-xl text-white font-semibold text-center">
+              ABOUT ME
+            </h1>
+            <h3 className="font-bold text-green-400 sm:text-2xl lg:text-4xl text-xl my-2">
+              EDUCATION :
+            </h3>
+            <div className="">
+              <h2 className="text-lg font-bold text-gray-200">
+                2020 - PRESENT
+              </h2>
+              <h6 className="">
+                {"→ "}Bachelors of Technology in Computer Science and
+                Information Technology
+              </h6>
+              <h6 className="">
+                {"→ "}Mahatma Jyotiba Phule Rohilkhand University
+              </h6>
+            </div>
+            <div className="">
+              <h2 className="text-lg font-bold text-gray-200">2015 - 2017</h2>
+              <h6 className="">{"→ "}CGPA-9.2/10</h6>
+              <h6 className="">Udai Academy (CBSE)-10th.</h6>
+            </div>
+            <div className="">
+              <h2 className="text-lg font-bold text-gray-200">2017 - 2019</h2>
+              <h6 className="">{"→ "}Percentage-87.6%</h6>
+              <h6 className="">{"→ "}P.D Academy (CBSE)-12th.</h6>
+            </div>
+          </div>
         </div>
       </div>
       <div
-        className="font-bold sm:pl-[150px] pl-[80px] w-full justify-center pt-[20px] "
-        data-aos="zoom-in-up"
+        className="w-full sm:w-1/2"
+        // data-aos="zoom-in-up"
       >
-        <div className="flexjustify-center items-center ">
-          <h3 className="font-bold text-3xl  pb-[0px]   items-center text-fuchsia-600">
-            Tech Stacks/Skills
-          </h3>
-        </div>
+        <h3 className="font-bold text-3xl">Tech Stacks/Skills</h3>
         <ul className="sm:flex-row">
           <li className="text-rose-500 sm:text-2xl text-2xl font-bold">C++</li>
           <div className="sm:h-[34px]  sm:w-[385px]  bg-white sm:ml-[39px]  border-solid rounded-2xl  ">
