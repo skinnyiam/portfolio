@@ -5,7 +5,7 @@ import { HiDocumentText } from "react-icons/hi";
 const Navbar = () => {
   return (
     <div className="w-full">
-      <div className="fixed w-full px-2 py-4 bg-gradient-to-b from-gray-900 to-transparent flex items-center">
+      <div className="fixed w-full p-4 bg-gradient-to-b from-gray-900 to-transparent flex items-center">
         <a href="#home" className="">
           <h1 className="text-2xl sm:text-4xl text-gray-200 font-bold">
             <span className="text-green-400">S</span>AURABH{" "}
