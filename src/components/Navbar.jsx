@@ -1,72 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-
 const Navbar = () => {
-  const [nav, setnav] = useState(false);
-  const handleClick = () => setnav(!nav);
   return (
-    <div className="fixed w-full  h-[70px] z-10 flex justify-between items-center px-4 bg-black text-gray-50 ">
-      {/* menu */}
-      <div className="fixed flex justify-center">
-        <h1 className=" animate-pulse text-2xl text-orange-200  ">
-          SaurabhShukla..
-        </h1>
+    <div className="w-full">
+      <div className="fixed w-full px-2 py-4 bg-gradient-to-b from-gray-900 via-gray-900 to-transparent flex items-center">
+        <a href="#home" className="">
+          <h1 className="text-2xl sm:text-4xl text-gray-200 font-bold">
+            <span className="text-green-400">S</span>AURABH{" "}
+            <span className="text-green-400">S</span>HUKLA
+          </h1>
+        </a>
       </div>
-{/* 
-      <ul className=" hidden  md:flex "> */}
-        {/* <li>Home</li>
-        <li>About</li>
-        <li>Projects</li> */}
-        {/* <li>Contact</li> */}
-      {/* </ul> */}
 
-      {/* icon */}
-      {/* <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? (
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            viewBox="0 0 1024 1024"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path>
-          </svg>
-        ) : (
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            stroke-width="0"
-            version="1.1"
-            viewBox="0 0 16 16"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M15.854 12.854c-0-0-0-0-0-0l-4.854-4.854 4.854-4.854c0-0 0-0 0-0 0.052-0.052 0.090-0.113 0.114-0.178 0.066-0.178 0.028-0.386-0.114-0.529l-2.293-2.293c-0.143-0.143-0.351-0.181-0.529-0.114-0.065 0.024-0.126 0.062-0.178 0.114 0 0-0 0-0 0l-4.854 4.854-4.854-4.854c-0-0-0-0-0-0-0.052-0.052-0.113-0.090-0.178-0.114-0.178-0.066-0.386-0.029-0.529 0.114l-2.293 2.293c-0.143 0.143-0.181 0.351-0.114 0.529 0.024 0.065 0.062 0.126 0.114 0.178 0 0 0 0 0 0l4.854 4.854-4.854 4.854c-0 0-0 0-0 0-0.052 0.052-0.090 0.113-0.114 0.178-0.066 0.178-0.029 0.386 0.114 0.529l2.293 2.293c0.143 0.143 0.351 0.181 0.529 0.114 0.065-0.024 0.126-0.062 0.178-0.114 0-0 0-0 0-0l4.854-4.854 4.854 4.854c0 0 0 0 0 0 0.052 0.052 0.113 0.090 0.178 0.114 0.178 0.066 0.386 0.029 0.529-0.114l2.293-2.293c0.143-0.143 0.181-0.351 0.114-0.529-0.024-0.065-0.062-0.126-0.114-0.178z"></path>
-          </svg>
-        )}
-      </div> */}
-
-      {/* mobile menu view  */}
-
-      {/* <ul
-        className={
-          !nav
-            ? "hidden"
-            : " top-0 left-0 w-full  h-screen bg-black flex flex-col justify-center items-center"
-        }
-      >
-        <li className="py-10 text-4xl">About me</li>
-        <li className="py-10 text-4xl">Projects</li>
-
-        <li className="py-10 text-4xl">Home</li>
-      </ul> */}
-
-      {/* social icons  */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-300 bg-blue-600 pl-4">

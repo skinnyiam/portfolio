@@ -14,14 +14,13 @@ const About = () => {
   return (
     <div
       name="home"
-      className="z-2 w-full bg-black  justify-center sm:flex flex-row pr-[200px] "
+      className="z-2 w-full justify-center sm:flex flex-row pr-[200px] "
     >
       {/* container  */}
       <div
         className=" w-full sm:flex sm:flex-col  sm:pl-[100px] pl-0] sm:ml-0 ml-[90px] sm:pt-[100px] pt-0  h-full"
         data-aos="zoom-out-right"
       >
-        
         <div className="mb-[10px]  ">
           <h1 className=" sm:text-6xl text-2xl font-semibold text-cyan-500 ">
             ABOUT ME
@@ -49,7 +48,6 @@ const About = () => {
           <h2 className="text-green-400 text-3xl ">2017 - 2019</h2>
           <h6 className="text-teal-400">Percentage-87.6%</h6>
           <h6 className="text-teal-300">P.D Academy (CBSE)-12th.</h6>
-        
         </div>
       </div>
       <div
