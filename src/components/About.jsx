@@ -13,13 +13,16 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about w-full flex flex-col">
+    <div id="about" className="w-full flex flex-col">
       <h1 className="sm:text-2xl lg:text-4xl text-xl text-gray-50 font-semibold text-center p-0 sm:py-4">
         ABOUT ME
       </h1>
       <div className="w-full flex flex-col sm:flex-row justify-center">
-        <div className="w-full sm:w-1/2" data-aos="fade-right">
-          <div className="px-16 py-4 w-full flex flex-col items-center">
+        <div className="w-full sm:w-1/2">
+          <div
+            className="px-4 sm:px-16 py-4 w-full flex flex-col items-center"
+            data-aos="fade-right"
+          >
             <div>
               <h3 className="font-bold text-green-400 sm:text-2xl lg:text-4xl text-xl mb-2">
                 EDUCATION :
@@ -49,8 +52,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="w-full sm:w-1/2 sm:m-0" data-aos="fade-left">
-          <div className="w-full flex flex-col px-16 py-4">
+        <div className="w-full sm:w-1/2 sm:m-0">
+          <div
+            className="w-full flex flex-col px-4 sm:px-16 py-4"
+            data-aos="fade-right"
+          >
             <h3 className="text-green-400 font-bold sm:text-2xl lg:text-4xl text-xl">
               TECH STACK/SKILLS :
             </h3>
