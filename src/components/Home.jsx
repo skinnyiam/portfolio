@@ -15,7 +15,7 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col p-16 sm:w-1/2 items-center">
+      <div className="flex flex-col px-16 py-8 sm:w-1/2 items-center">
         <div>
           <p className="text-gray-300 text-sm sm:text-lg lg:text-xl">
             <span>&#128075;</span>Hi, I'm
