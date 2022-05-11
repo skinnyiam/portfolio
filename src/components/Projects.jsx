@@ -1,35 +1,54 @@
-import React from 'react'
-
+import React from "react";
+import ProjectImage from "../asset/movie.png";
 
 const Projects = () => {
- 
   return (
-    <>
-    
-  <div className=' h-[91vh] sm:pt-[0px] w-full bg-black flex justify-center'>
-    <div>
-  <h1 className='text-emerald-400 sm:pt-[30px]  sm:text-3xl  font-bold flex justify-center'>PROJECTS</h1>
-  <div data-aos="zoom-in-down" className= ' flex sm:mt-[20px] '>
-    <div className='sm:inline hidden pr-[40px]'>
-         <img src={require("../asset/movie.png")} alt="" className='w-[350px] h-[400px]'/>
+    <div id="projects" className="w-full">
+      <div className="w-full flex justify-center my-8">
+        <div className="w-full">
+          <h1 className="sm:text-2xl lg:text-4xl text-xl text-gray-50 font-semibold text-center p-0 sm:py-4">
+            PROJECTS
+          </h1>
+          <div
+            className="flex flex-col sm:flex-row justify-between items-start w-full px-4 sm:px-16 py-2"
+            data-aos="fade-right"
+          >
+            <img
+              src={ProjectImage}
+              alt=""
+              className="w-full sm:w-1/3 lg:w-1/6 max-w-[20rem] rounded"
+            />
+            <div className="py-4 sm:py-0 sm:px-4 w-full sm:w-2/3 lg:w-5/6">
+              <h2 className="text-green-400 text-sm sm:text-base lg:text-lg font-bold">
+                REACT APP
+              </h2>
+              <h3 className="text-gray-50 text-lg sm:text-xl lg:text-2xl font-bold">
+                MOVIE RATING APP
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg">
+                A platform where users can search for any movies and see their
+                IMDB ratings and all the information related to it.
+              </p>
+              <div className="flex justify-start items-center my-2">
+                <button
+                  className="font-bold text-gray-50 bg-green-400 rounded px-3 py-2 mr-2"
+                  href="https://movies-search-karo.herokuapp.com/"
+                >
+                  WEBSITE
+                </button>
+                <a
+                  className="font-bold text-green-400 bg-transparent rounded px-2 py-1 outline outline-green-400 ml-2"
+                  href="https://github.com/skinnyiam/moviezone"
+                >
+                  GITHUB
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-    <h2 className='text-3xl text-rose-500 font-bold'>REACT APP</h2>
-    <h3 className='text-2xl font-bold text-orange-600'>MOVIE RATING APP</h3>
-   <p className='font-semibold text-gray-600 text-xl'>A platform where users can search for any movies and see their IMDB ratings and all the information related to it.</p>
-   <div className='mt-[35px]'>
-   <button className='w-[120px] h-[50px] text-black-400 font-bold text-2xl bg-green-700 m-8 rounded p-[3px] ' href="https://movies-search-karo.herokuapp.com/">WEBSITE</button> 
-   <a className='w-[120px] h-[50px] text-white  text-2xl font-bold border-green-400 border-2 mt-[20px] rounded' href="https://github.com/skinnyiam/moviezone">GITHUB</a>
-   </div>
-   </div>
-  </div>
-  
-  </div>
-  
-  </div>
-  
-  </>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

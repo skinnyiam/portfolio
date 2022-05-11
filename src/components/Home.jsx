@@ -1,32 +1,36 @@
 import React from "react";
 
-import Logo from "../asset/portrait.JPG";
+import Logo from "../asset/portrait.png";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen  w-full  bg-black flex flex-col-reverse sm:flex-row  ">
-      <div className="mx-w-[1000px] sm:mt-[0px] mt-[0px] sm:mx-auto m-10 flex flex-col  justify-center h-full">
-        <p className=" sm:text-2xl text-[35px]    text-red-500 font-bold">
-          Hii,my name is
-        </p>
-        <h1 className="sm:text-6xl text-6xl   text-stone-100">Saurabh Shukla</h1>
-        <h2 className="sm:text-3xl text-xl  text-orange-200 ">
-          I am a front-end developer
-        </h2>
-        <p className="sm:text-2xl text-[14px]  text-emerald-500">
-          I am a web developer specializing in building websites. <br />I am
-          also learning data structures and algorithms. Wanna talk about tech ?
-          Let's CONNECT.
-        </p>
-       </div>
-        <div className="">
-          <img
-            className="bg-black mt-[60px] sm:mr-[55px] sm:ml-[0px] ml-[80px]   sm:rounded-3xl rounded-full sm:w-[450px] w-[170px] "
-            src={Logo}
-            alt=""
-          />
+    <div
+      id="home"
+      className="sm:h-screen w-full flex flex-col sm:flex-row-reverse text-gray-200 items-center justify-between"
+    >
+      <div className="flex justify-center sm:w-1/2">
+        <img
+          className="mt-16 sm:m-0 w-64 h-64 sm:w-[30vw] sm:h-[30vw] rounded-full"
+          src={Logo}
+          alt=""
+        />
+      </div>
+      <div className="flex flex-col px-4 sm:px-16 py-8 sm:w-1/2 items-center">
+        <div>
+          <p className="text-gray-300 text-sm sm:text-lg lg:text-xl">
+            <span>&#128075;</span>Hi, I'm
+          </p>
+          <h1 className="font-extrabold text-2xl sm:text-4xl lg:text-6xl">
+            SAURABH SHUKLA
+          </h1>
+          <h2 className="text-gray-300 text-sm sm:text-lg lg:text-xl">
+            {"→ "}I am a front-end developer
+          </h2>
+          <p className="text-gray-300 text-sm sm:text-lg lg:text-xl">
+            {"→ "}I am also learning data structures and algorithms.
+          </p>
         </div>
-      
+      </div>
     </div>
   );
 };
