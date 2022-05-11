@@ -30,12 +30,12 @@ const Projects = () => {
                 IMDB ratings and all the information related to it.
               </p>
               <div className="flex justify-start items-center my-2">
-                <button
+                <a
                   className="font-bold text-gray-50 bg-green-400 rounded px-3 py-2 mr-2"
                   href="https://movies-search-karo.herokuapp.com/"
                 >
                   WEBSITE
-                </button>
+                </a>
                 <a
                   className="font-bold text-green-400 bg-transparent rounded px-2 py-1 outline outline-green-400 ml-2"
                   href="https://github.com/skinnyiam/moviezone"
