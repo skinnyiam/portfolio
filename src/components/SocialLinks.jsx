@@ -5,7 +5,7 @@ import CodechefLogo from "../asset/codechef.png";
 
 const SocialLinks = () => {
   return (
-    <div data-aos="fade-right" className="flex flex-row  sm:hidden justify-center items-center">
+    <div  className="flex flex-row  sm:hidden justify-center items-center">
       <a
         className="p-2 bg-blue-600 text-2xl"
         href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
