@@ -6,7 +6,7 @@ const Projects = () => {
     <div id="projects" className="w-full">
       <div className="w-full flex justify-center my-8">
         <div className="w-full">
-          <h1 className="sm:text-2xl lg:text-4xl text-xl text-gray-50 font-semibold text-center p-0 sm:py-4">
+          <h1 className="sm:text-2xl lg:text-4xl text-xl dark:text-gray-50 text-gray-600 font-semibold text-center p-0 sm:py-4">
             PROJECTS
           </h1>
           <div
@@ -22,7 +22,7 @@ const Projects = () => {
               <h2 className="text-green-400 text-sm sm:text-base lg:text-lg font-bold">
                 REACT APP
               </h2>
-              <h3 className="text-gray-50 text-lg sm:text-xl lg:text-2xl font-bold">
+              <h3 className="dark:text-gray-50 text-gray-600 text-lg sm:text-xl lg:text-2xl font-bold">
                 MOVIE RATING APP
               </h3>
               <p className="text-sm sm:text-base lg:text-lg">

@@ -43,7 +43,7 @@ const SocialLinks = () => {
               </svg>
       </a>
       <a
-        className="p-2 bg-orange-300 text-2xl"
+        className="p-2 bg-orange-300  text-2xl"
         href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
       >
          <img className=" w-6" src={CodechefLogo} alt="CodeChef" />
