@@ -2,37 +2,23 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi";
 import CodechefLogo from "../asset/codechef.png";
-<<<<<<< HEAD
 import ThemeSwitchButton from "./themeSwitchButton";
-=======
->>>>>>> main
 
 const Navbar = () => {
   return (
     <div className="w-full">
-<<<<<<< HEAD
       <div className="z-10 fixed w-full p-4 bg-gradient-to-b dark:from-gray-900 from-gray-200 to-transparent  flex items-center justify-between">
         <a href="#home" className="">
           <h1 className="text-2xl sm:text-4xl dark:text-gray-200 text-gray-600 font-bold">
-=======
-      <div className="z-10 fixed w-full p-4 bg-gradient-to-b from-gray-900 to-transparent flex items-center">
-        <a href="#home" className="">
-          <h1 className="text-2xl sm:text-4xl text-gray-200 font-bold">
->>>>>>> main
             <span className="text-green-400">S</span>AURABH{" "}
             <span className="text-green-400">S</span>HUKLA
           </h1>
         </a>
-<<<<<<< HEAD
         <ThemeSwitchButton/>
       </div>
 
 
 
-=======
-      </div>
-
->>>>>>> main
       <div className="z-10 fixed hidden sm:flex flex-col justify-center h-screen items-start">
         <div className="">
           <ul>
