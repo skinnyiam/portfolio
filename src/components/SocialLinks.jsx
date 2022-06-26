@@ -14,19 +14,19 @@ const SocialLinks = () => {
       </a>
       <a
         className="p-2 bg-green-400 text-2xl"
-        href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
+        href=""
       >
         <HiDocumentText />
       </a>
       <a
         className="p-2 bg-gray-800 text-2xl"
-        href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
+        href="https://github.com/skinnyiam"
       >
         <FaGithub />
       </a>
       <a
         className="p-2 bg-orange-500 text-2xl"
-        href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
+        href="https://leetcode.com/saurabhshukla7878/"
       >
         <svg
                 stroke="currentColor"
@@ -44,7 +44,7 @@ const SocialLinks = () => {
       </a>
       <a
         className="p-2 bg-orange-300  text-2xl"
-        href="http://www.linkedin.com/in/saurabh-shukla-885a711b3"
+        href="https://www.codechef.com/users/skinny"
       >
          <img className=" w-6" src={CodechefLogo} alt="CodeChef" />
       </a>
