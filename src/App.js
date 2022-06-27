@@ -9,7 +9,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div className="w-full bg-gray-900 text-gray-300">
+    <div className="w-full bg-white dark:bg-gray-900  text-black dark:text-white">
       <Navbar />
       <Home />
       <About />
