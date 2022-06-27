@@ -27,7 +27,9 @@ const Home = () => {
             {"→ "}I am a front-end developer
           </h2>
           <p className="dark:text-gray-300 text-gray-700 text-sm sm:text-lg lg:text-xl">
-            {"→ "}I am also learning data structures and algorithms.
+            {"→ "}I have a decent knowledge of data structures and algorithms.
+            <br />
+            {"→ "}Solved over 175+ questions on leetcode.
           </p>
         </div>
       </div>

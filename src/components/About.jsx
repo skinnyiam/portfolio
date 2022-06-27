@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div id="about" className="w-full flex flex-col">
-      <h1 className="sm:text-2xl lg:text-4xl text-xl dark:text-gray-50 text-gray-600 font-semibold text-center p-0 sm:py-4">
+      <h1 className="sm:text-2xl lg:text-4xl text-xl dark:text-white text-black font-semibold text-center p-0 sm:py-4">
         ABOUT ME
       </h1>
       <div className="w-full flex flex-col sm:flex-row justify-center">
@@ -28,7 +28,7 @@ const About = () => {
                 EDUCATION :
               </h3>
               <div className="">
-                <h2 className="text-lg font-bold text-gray-200">
+                <h2 className="text-lg font-bold dark:text-gray-300 text-gray-700">
                   2020 - PRESENT
                 </h2>
                 <h6 className="">
@@ -40,12 +40,12 @@ const About = () => {
                 </h6>
               </div>
               <div className="">
-                <h2 className="text-lg font-bold text-gray-200">2015 - 2017</h2>
+                <h2 className="text-lg font-bold dark:text-gray-300 text-gray-700">2015 - 2017</h2>
                 <h6 className="">{"→ "}CGPA-9.2/10</h6>
                 <h6 className="">Udai Academy (CBSE)-10th.</h6>
               </div>
               <div className="">
-                <h2 className="text-lg font-bold text-gray-200">2017 - 2019</h2>
+                <h2 className="text-lg font-bold dark:text-gray-300 text-gray-700">2017 - 2019</h2>
                 <h6 className="">{"→ "}Percentage-87.6%</h6>
                 <h6 className="">{"→ "}P.D Academy (CBSE)-12th.</h6>
               </div>
