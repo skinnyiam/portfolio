@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import SocialLinks from "./components/SocialLinks";
+
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <SocialLinks />
       <Footer />
+      
     </div>
   );
 }

@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <div id="about" className="w-full flex flex-col">
-      <h1 className="sm:text-2xl lg:text-4xl text-xl text-gray-50 font-semibold text-center p-0 sm:py-4">
+      <h1 className="sm:text-2xl lg:text-4xl text-xl dark:text-gray-50 text-gray-600 font-semibold text-center p-0 sm:py-4">
         ABOUT ME
       </h1>
       <div className="w-full flex flex-col sm:flex-row justify-center">
@@ -90,7 +90,7 @@ const About = () => {
                   MongoDB
                 </li>
                 <div className="h-6 w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
-                  <div className="h-6  w-1/2   bg-green-500 border-solid rounded-lg"></div>
+                  <div className="h-6  w-1/2    bg-green-500 border-solid rounded-lg"></div>
                 </div>
               </ul>
             </div>
@@ -98,20 +98,18 @@ const About = () => {
               {"→ "}I also do Competetive Programming to improve my problem
               solving skills
             </p>
-            <p className="text-lg font-medium text-gray-50">
+            <p className="text-lg font-medium dark:text-gray-50 text-gray-600">
               Check out my ratings here:
             </p>
             <div className="">
-              <button className="w-16 h-16">
+              <button className="w-14 h-14 mr-2 bg-orange-300 rounded-full">
                 <a className="" href="https://www.codechef.com/users/skinny">
-                  <img className=""  src={CodechefLogo} alt="CodeChef" />
+                  <img className="" src={CodechefLogo} alt="CodeChef" />
                 </a>
               </button>
-              <button className="w-14 h-14">
-                <a className=""  href="https://leetcode.com/saurabhshukla7878/">
-                  <img className="" 
-                  src={LeetcodeLogo}
-                  alt="CodeChef" />
+              <button className="w-14 h-14  bg-orange-600 rounded-full">
+                <a className="" href="https://leetcode.com/saurabhshukla7878/">
+                  <img className="" src={LeetcodeLogo} alt="CodeChef" />
                 </a>
               </button>
             </div>
@@ -120,7 +118,7 @@ const About = () => {
       </div>
       <div className="w-full flex justify-center">
         <div data-aos="fade-right">
-          <h1 className="text-green-400 font-bold sm:text-2xl lg:text-4xl text-xl">
+          <h1 className="dark:text-green-400 text-green-600 font-bold sm:text-2xl lg:text-4xl text-xl">
             HOBBIES :
           </h1>
           <p className="text-lg sm:text-xl">
@@ -132,7 +130,7 @@ const About = () => {
           <p className="text-lg sm:text-xl">
             {"→ "}Check out my{" "}
             <a
-              className=" decoration-green-400 decoration-2 underline underline-offset-4 font-bold hover:text-gray-400"
+              className=" decoration-green-00 decoration-2 underline underline-offset-4 font-bold hover:text-gray-400"
               href="https://www.chess.com/member/reactjsnodejs"
             >
               chess.com

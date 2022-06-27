@@ -4,7 +4,10 @@ import RecipeasImage from "../asset/recipeas.png"
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full">
+
+    <div id="projects"  className="w-full">
+    
+
       <div className="w-full flex justify-center my-8">
         <div className="w-full">
           <h1 className="sm:text-2xl lg:text-4xl text-xl dark:text-gray-50 text-gray-600 font-semibold text-center p-0 sm:py-4">
