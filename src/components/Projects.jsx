@@ -74,7 +74,7 @@ const Projects = () => {
               <div className="flex justify-start items-center my-2">
                 <a
                   className="font-bold text-gray-50 bg-green-400 rounded px-3 py-2 mr-2"
-                  href="https://movies-search-karo.herokuapp.com/"
+                  href="https://moviezone.vercel.app/"
                 >
                   WEBSITE
                 </a>
