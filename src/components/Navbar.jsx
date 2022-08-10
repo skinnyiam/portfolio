@@ -11,7 +11,7 @@ const Navbar = () => {
         <a href="#home" className="">
           <h1 className="text-2xl sm:text-4xl dark:text-gray-200 text-gray-600 font-bold">
             <span className="text-green-400">S</span>AURABH{" "}
-            <span className="text-green-400">S</span>HUKLA
+            <span className="text-green-400">S</span>HUKLA.
           </h1>
         </a>
         <ThemeSwitchButton/>
