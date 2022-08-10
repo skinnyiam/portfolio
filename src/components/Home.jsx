@@ -1,4 +1,5 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
 
 import Logo from "../asset/portrait.png";
 
@@ -29,8 +30,13 @@ const Home = () => {
           <p className="dark:text-gray-300 text-gray-700 text-sm sm:text-lg lg:text-xl">
             {"→ "}I have a decent knowledge of data structures and algorithms.
             <br />
-            {"→ "}Solved over 175+ questions on leetcode.
+            {"→ "}Solved over 190+ questions on leetcode.
           </p>
+
+          <p className="dark:text-gray-300 text-gray-700 text-sm sm:text-lg lg:text-xl">
+            {"→ "}Wanna talk about tech Let's Connect !!!
+          </p>
+         
         </div>
       </div>
     </div>
