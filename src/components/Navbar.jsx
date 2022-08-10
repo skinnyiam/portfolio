@@ -29,6 +29,7 @@ const Navbar = () => {
               >
                 Linkedin
               </a>
+              
               <FaLinkedin />
             </li>
             <li className="w-40 h-14 flex justify-between items-center translate-x-[-7.5rem] hover:translate-x-0 duration-300 bg-gray-800 text-white px-2">
