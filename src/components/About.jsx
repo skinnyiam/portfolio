@@ -94,7 +94,7 @@ const About = () => {
                   React-Js
                 </li>
                 <div className="h-6  w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
-                  <div className="h-6  w-6/6   bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">100%</div>
+                  <div className="h-6  w-11/12   bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">80%</div>
                 </div>
                 <li className="text-black dark:text-white font-bold text-base sm:text-lg lg:text-xl p-0 mt-2">
                   Next-Js
@@ -132,7 +132,7 @@ const About = () => {
                   Firebase
                 </li>
                 <div className="h-6 w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
-                  <div className="h-6  w-6/9    bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">100%</div>
+                  <div className="h-6  w-11/12    bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">80%</div>
                 </div>
                 
                 <li className="text-black dark:text-white font-bold text-base sm:text-lg lg:text-xl p-0 mt-2">
