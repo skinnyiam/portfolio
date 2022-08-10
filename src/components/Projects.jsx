@@ -43,7 +43,7 @@ const Projects = () => {
                 </a> */}
                 <a
                   className="font-bold text-green-400 bg-transparent rounded px-2 py-1 outline outline-green-400 ml-2"
-                  href="https://github.com/skinnyiam/moviezone"
+                  href="https://github.com/skinnyiam/codespace"
                 >
                   GITHUB
                 </a>
