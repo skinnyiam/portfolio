@@ -36,9 +36,9 @@ const Home = () => {
           <p className="dark:text-gray-300 text-gray-700 text-sm sm:text-lg lg:text-xl">
             {"→ "}Wanna talk about tech Let's Connect !!!
           </p>
-         <div className="mt-2 flex ml-4">
+         <div className="mt-2 flex ml-4 ">
         
-          <a href="https://www.instagram.com/saurabh_ishere/?hl=en" ><FaInstagram className="h-6 sm:h-8 sm:w-10 w-6"/></a>
+          <a className="mr-4" href="https://www.instagram.com/saurabh_ishere/?hl=en" ><FaInstagram className="h-6 sm:h-8 sm:w-10 w-6"/></a>
           <a href="https://www.linkedin.com/in/saurabh-shukla-885a711b3/" ><FaLinkedinIn className="h-6 sm:h-8 sm:w-10 w-6"/></a>
           
          </div>
