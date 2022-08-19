@@ -111,18 +111,8 @@ const About = () => {
                 <li className="text-black dark:text-white font-bold text-base sm:text-lg lg:text-xl p-0 mt-2">
                   Javascript
                 </li>
-                <div className="h-6 w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
-                  <div className="h-6  w-4/5   bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">70%</div>
-                </div>
-                <li className="text-black dark:text-white font-bold text-base sm:text-lg lg:text-xl p-0 mt-2">
-                  Express-Js
-                </li>
-                <div className="h-6 w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
-                  <div className="h-6  w-4/5    bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">70%</div>
-                </div>
-                <li className="text-black dark:text-white font-bold text-base sm:text-lg lg:text-xl p-0 mt-2">
-                  MongoDB
-                </li>
+                
+                
                 <div className="h-6 w-11/12 bg-green-500/20  border-solid rounded-lg mb-2">
                   <div className="h-6  w-3/5    bg-green-500 border-solid rounded-lg text-black text-lg font-bold text-center">60%</div>
                 </div>
