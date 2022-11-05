@@ -29,18 +29,18 @@ const Projects = () => {
                 REACT APP
               </h2>
               <h3 className="dark:text-gray-50 text-gray-600 text-lg sm:text-xl lg:text-2xl font-bold">
-                C0DESPACE (Under Development)
+                C0DESPACE (Working on Responsiveness)
               </h3>
               <p className="text-sm sm:text-base lg:text-lg">
                 A platform where users can save their code and resources so they can track their learning while following 100daysofcode.
               </p>
               <div className="flex justify-start items-center my-2">
-                {/* <a
+                <a
                   className="font-bold text-gray-50 bg-green-400 rounded px-3 py-2 mr-2"
-                  href="https://moviezone.vercel.app/"
+                  href="https://codespace-xi.vercel.app/"
                 >
                   WEBSITE
-                </a> */}
+                </a>
                 <a
                   className="font-bold text-green-400 bg-transparent rounded px-2 py-1 outline outline-green-400 ml-2"
                   href="https://github.com/skinnyiam/codespace"
