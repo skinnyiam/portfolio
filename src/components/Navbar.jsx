@@ -44,7 +44,7 @@ const Navbar = () => {
             <li className="w-40 h-14 flex justify-between items-center translate-x-[-7.5rem] hover:translate-x-0 duration-300 bg-green-400 text-white px-2">
               <a
                 className="flex justify-between items-center w-full font-bold"
-                href="https://drive.google.com/file/d/1DvWK5JR_Eas0lcSOxBLu7FAuOHyK2QPg/view"
+                href="https://drive.google.com/file/d/1klzjG-1TZSbPuLp9h9CCXzruuP48PE7O/view"
               >
                 Resume
               </a>
