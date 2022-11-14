@@ -14,7 +14,7 @@ const SocialLinks = () => {
       </a>
       <a
         className="p-2 bg-green-400 text-2xl"
-        href="https://drive.google.com/file/d/1DvWK5JR_Eas0lcSOxBLu7FAuOHyK2QPg/view"
+        href="https://drive.google.com/file/d/1klzjG-1TZSbPuLp9h9CCXzruuP48PE7O/view"
       >
         <HiDocumentText />
       </a>
